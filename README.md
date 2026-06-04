@@ -135,7 +135,6 @@ Integrating adjusted carbon intensity (x-axis) with total portfolio emissions (y
 │   └── toronto_data_cleaning_v2.r        # ETL: panel construction, GHG reconstruction, variable engineering
 ├── final_model_code/
 │   ├── 718_Final_Model.R                 # Main analysis: models, diagnostics, LOO-CV, figures
-│   └── toronto_brms_FINAL_annotated.R    # Annotated reference version
 ├── cleaned_data/
 │   └── Toronto_Master_Panel_Ready_v2.csv # Final panel (914 obs × 8 years)
 ├── output/                               # All figures (EUI boxplot, caterpillar, PPC, ESG matrix)
