@@ -1,0 +1,33 @@
+term,C1,C2,C3
+=== Fixed effects ===,,,
+Grand Intercept,"-1.14
+(0.61)","5.07
+(3.02)","8.12
+(3.16)"
+log_GFA,"-0.03
+(0.03)","0.02
+(0.04)","0.15
+(0.16)"
+log_Hours,"0.54
+(0.1)","-0.91
+(0.63)","-1.85
+(0.59)"
+Year_scaled,"-0.03
+(0.02)","-0.02
+(0.02)","-0.02
+(0.01)"
+=== Group-level parameters ===,,,
+SD(Intercept): Building_Type,,"0.77
+(0.36)","3.57
+(0.89)"
+SD(log_GFA): Building_Type,,,"0.39
+(0.12)"
+"Cor(Intercept, log_GFA)",,,"-0.78
+(0.19)"
+=== Model fit ===,,,
+Observations,914,914,914
+Residual SD (sigma),"1.16
+(0.03)","1.11
+(0.03)","1.06
+(0.03)"
+Bayesian R2,0.04,0.11,0.19
